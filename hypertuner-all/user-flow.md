@@ -12,14 +12,14 @@ D. hypertuner-demonet: Demo ML project
 ### Create and save a hypertuner conf
 1. User uses A to create a `hypertuner` configuration and press save
 1. A sends a `POST` request to B with a body being the `hypertuner` conf
-1. B writes with `fs-extra` the hypertuner body to a file, with a prefixed random uuid.
+1. B writes with `fs-extra` the hypertuner body to a file, with a name provided user or default using a friendly name generator.
 
 ### Create and run a hypertuner conf 
 1. User uses A to create a `hypertuner` configuration and press run
 1. A sends a `POST` request to B with a body being the `hypertuner` conf
-1. B writes with `fs-extra` the hypertuner body to a file, with a prefixed random uuid.
+1. B writes with `fs-extra` the hypertuner body to a file, with a name provided user or default using a friendly name generator.
 1. B spawns a D instance that was integrated with C, appended with the path to the conf
-1. Every 10 seconds, C would write into the graph file.
+1. C writes into the graph file.
 
 ### View graph
 1. User switch to the view graph page in A

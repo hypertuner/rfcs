@@ -29,4 +29,6 @@ This path shall be hard-coded to hypertuner-demonet
 
 ## Config file path and structure convention
 
+hypertuner-demonet/
+
 ## Graph file path and structure convention
