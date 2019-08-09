@@ -4,7 +4,7 @@
 
 # Summary
 
-hypertuner allows the users to save their ML model alongs side with the configs used to run them.
+Hypertuner allows the users to save their ML model alongs side with the configs used to run them.
 
 # Basic example
 
