@@ -38,7 +38,7 @@ This will be a part of the `hypertuner` python library. It will parse a json fil
 ### Requirement
 
 - The script imports the hypertuner library
-- The script calls `hypertuner.parse()` and stores the object this call returns
+- The script calls `hypertuner.Args()` and stores the object this call returns
 - The script is called with a command line argument `--config=<PATH_TO_CONFIG>` 
 
 ### Config File
@@ -47,7 +47,7 @@ The config file passed to conform to the hypertuner file spec (INSERT LINK). Thi
 
 ### Args object
 
-The object returned by `hypertuner.parse()` contains all the hyperparameters defined in the given json file as fields (traditionally this object is called `args`).
+The object returned by `hypertuner.Args()` contains all the hyperparameters defined in the given json file as fields (traditionally this object is called `args`).
 
 For example:
 
@@ -55,7 +55,7 @@ For example:
 import hypertuner
 
 # Parse Args
-args = hypertuner.parse()
+args = hypertuner.Args()
 # Print batch size and learning rate
 print("Learning Rate: ", args.learning_rate)
 print("Batch Size: ", args.batch_size)
