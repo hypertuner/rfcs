@@ -4,14 +4,14 @@
 
 # Summary
 
-Hypertuner allowse the users to save their ML model alongs side with the configs used to run them.
+hypertuner allows the users to save their ML model alongs side with the configs used to run them.
 
 # Basic example
 
 ```python
 import hypertuner
 
-# import some neurlal net
+# import some neural net
 net = Net()
 
 # Initialize saver
@@ -22,7 +22,7 @@ saver.save()
 
 # Motivation
 
-Saving model weights is a broadly implemented function in machine learning frameworks but saving them in a standardized format along with the parameters used to generate them is not automated. Therefore HyperTuner implements a saving feature that plugs in seamlessly with the GUI to enable re-using weights obtained on training runs that proved to be sucessful compared to other settings.
+Saving model weights is a broadly implemented function in machine learning frameworks but saving them in a standardized format along with the parameters used to generate them is not automated. Therefore hypertuner implements a saving feature that plugs in seamlessly with the GUI to enable re-using weights obtained on training runs that proved to be sucessful compared to other settings.
 
 # Detailed design
 
@@ -47,7 +47,7 @@ For example:
 ```python
 import hypertuner
 
-# import some neurlal net
+# import some neural net
 net = Net()
 
 # Initialize 
@@ -61,11 +61,11 @@ saver.save()
 # Drawbacks
 
 - It will take time to implement
-- It only supports PyTorch
+- It only supports PyTorch (for now)
 
 # Alternatives
 
-- People can use the built in save feature of their ml library (it will not store at a standardized location and will not plug into the HyperTuner GUI)
+- People can use the built in save feature of their ml library (it will not store at a standardized location and will not plug into the hypertuner GUI)
 
 # Adoption strategy
 
