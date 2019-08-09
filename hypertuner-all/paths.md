@@ -29,6 +29,12 @@ This path shall be hard-coded to hypertuner-demonet
 
 ## Config file path and structure convention
 
-hypertuner-demonet/
+hypertuner-demonet/storage/<name>/config.json
 
 ## Graph file path and structure convention
+
+hypertuner-demonet/storage/<name>/graph.json
+
+## Log file path and structure convention
+
+hypertuner-demonet/storage/<name>/log.json
