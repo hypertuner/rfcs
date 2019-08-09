@@ -20,11 +20,11 @@ for i in range(10):
 
 # Motivation
 
-While training machine learning models and tuning hyperparameters it is often important to graph the performance of a model and compare it with different configurations. Hypertuner provides logging for users to view/store the performance of the model. 
+While training machine learning models and tuning hyperparameters it is often important to graph the performance of a model and compare it with different configurations. Hypertuner provides logging for users to view/store the performance of the model.
 
 # Detailed design
 
-This will be a part of the `hypertuner` python library. It will parse a json file that is passed to it via a command line argument. It will construct a python object storing the hyperparameters from the json files in fields.
+This will be a part of the `hypertuner` python library. It will write training data to a json log file.
 
 ### Requirement
 
