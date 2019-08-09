@@ -4,7 +4,7 @@
 
 # Summary
 
-Hypertuner logging will allow users to log and graph performance data collected during training of thier models and display it with the Hypertuner GUI.
+Hypertuner logging will allow users to log and graph performance data collected during training of thier models and display it with the hypertuner GUI.
 
 # Basic example
 
@@ -20,7 +20,7 @@ for i in range(10):
 
 # Motivation
 
-While training machine learning models and tuning hyperparameters it is often important to graph the performance of a model and compare it with different configurations. Hypertuner provides 
+While training machine learning models and tuning hyperparameters it is often important to graph the performance of a model and compare it with different configurations. Hypertuner provides logging for users to view/store the performance of the model. 
 
 # Detailed design
 
@@ -33,8 +33,6 @@ This will be a part of the `hypertuner` python library. It will parse a json fil
 - The script calls `hypertuner.Logger()` and stores the object this call returns (typically as `logger`)
 
 - The script calls `logger.log(<DICT_OF_LOGS>, <FRAME_NUM>)`
-
-  
 
 ### Log Call
 
@@ -69,7 +67,7 @@ for i in range(10):
 
 # Alternatives
 
-- Apps with similar functionality exist (like Tensorboard), but they do not plug into the Hypertuner echo system which allowes for easy tuning of parameters, job scheduling and storing.
+- Apps with similar functionality exist (like Tensorboard), but they do not plug into the hypertuner echo system which allowes for easy tuning of parameters, job scheduling and storing.
 
 # Adoption strategy
 
