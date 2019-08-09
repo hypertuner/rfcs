@@ -21,7 +21,7 @@ This React application will give the user a UI by which they can edit, save, and
 
 # Design sketch
 
-![Initial Sketch](init_sketch.jpg)
+![Initial Sketch](./init_sketch.jpg)
 
 1. The initial home page of hyperTuner application that displays an empty "Configs" tab. Currently there are no hyperparameter configs displayed, user is directed to add a new hyperparameter configuration by using the add button in the corner. 
 2. The UI for adding, removing, and changing hyperparameters. Users can indicate the hyperparameter name, type (integer, float, boolean),and value that matches the type. On the upper right corner, users can run the model with the current hyperparameter configuration, stop the current run, or simply save the hyperparameter configuration. 
