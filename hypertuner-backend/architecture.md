@@ -5,4 +5,8 @@
 `hypertuner-backend start` will start the websocket server that has the following topics:
 
 1. create-config | payload: a hypertuner conf
-  The client will send the hypertuner conf to the websocket server to process and write into a nodejs file
+  The server will write the conf file into the path detmined in [paths.md](../hypertuner-all/paths.md)
+
+2. watch-graph | payload: a hypertuner conf id
+  The server will start a nsfw watcher over the graph and send change to the frontend
+
