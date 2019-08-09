@@ -1,5 +1,13 @@
-# RFCs for HyperTuner
+hyperTuner
+====
+Designed for **speed**, **simplicity**, and **insight**, hyperTuner is the ultimate web application for turbocharging your ML tuning workflow. 
 
-Here we defines our standard and architecture for each project we will create in this organization.
+#### Features
+- easy-save past hyperparameter states
+- compare past graphical outputs of hyperparameter states
+- quick adjustments of hyperparameters for new runs
+- web-based, no download
+- queue runs
 
-The project was inititated at HackLodge'19.
+#### About
+This is a [Hacklodge](https://hacklodge.org) project.
